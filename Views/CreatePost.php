@@ -1,0 +1,5 @@
+<?
+
+class CreatePost extends View {
+
+}

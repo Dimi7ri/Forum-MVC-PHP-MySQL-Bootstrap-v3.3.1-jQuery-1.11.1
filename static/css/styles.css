@@ -1,0 +1,14 @@
+
+
+.errorlist{
+	list-style: none;
+}
+
+label.error,
+.errorlist li {
+	color: #bb0000;
+}
+
+.errorlist li:last-child{
+	margin-bottom: 20px;	
+}	

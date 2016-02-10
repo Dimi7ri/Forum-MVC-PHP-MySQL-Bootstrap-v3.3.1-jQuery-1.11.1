@@ -1,0 +1,5 @@
+<?
+
+class ChangePassword extends View {
+
+}

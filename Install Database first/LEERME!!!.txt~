@@ -1,0 +1,19 @@
+Crear esquema: forum
+UTF 8
+
+USUARIOS YA CREADOS:
+user: Admin 
+pass: test1234
+administrador
+
+user: Moderator
+pass: test1234
+moderador
+
+user: Blocked
+pass: test1234
+usuario comun bloqueado
+
+user: prueba
+pass: test1234
+usuario comun no bloqueado

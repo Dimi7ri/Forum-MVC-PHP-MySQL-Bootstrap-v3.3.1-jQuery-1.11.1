@@ -1,0 +1,6 @@
+<?
+
+class RecoverPassword extends View {
+
+
+}
