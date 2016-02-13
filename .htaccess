@@ -1,0 +1,23 @@
+
+RewriteEngine ON
+RewriteRule ^statistics$ Controller/AdminStatistics.php
+RewriteRule ^userinfo=(.*) Controller/AdminUserManag.php?id=$1
+RewriteRule ^topic_id=(.*) Controller/DefineTopicManag.php?id=$1
+RewriteRule ^userslist$ Controller/AdminUsersList.php
+RewriteRule ^changepassword$ Controller/ChangePassword.php
+RewriteRule ^createpost$ Controller/CreatePost.php
+RewriteRule ^deletedposts$ Controller/DeletedPosts.php
+RewriteRule ^editpost=(.*) Controller/EditPost.php?id=$1
+RewriteRule ^updateuserinfo$ Controller/EditUser.php
+RewriteRule ^login$ Controller/Login.php
+RewriteRule ^logout$ Controller/Logout.php
+RewriteRule ^main$ Controller/MainPanel.php
+RewriteRule ^seepost=(.*) Controller/PostsAndComments.php?id=$1
+RewriteRule ^recover$ Controller/RecoverPassword.php
+RewriteRule ^recover2$ Controller/RecoverPassword2.php
+RewriteRule ^register$ Controller/Register.php
+RewriteRule ^reportcomment=(.*) Controller/ReportComment.php?id=$1
+RewriteRule ^reportedcommentslist$ Controller/ReportedCommentsList.php
+RewriteRule ^definetopics$ Controller/DefineTopics.php
+RewriteRule ^unverifiedposts$ Controller/UnverifiedPosts.php
+
