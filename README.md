@@ -4,8 +4,8 @@ Forum written in PHP, following MVC pattern. MySQL database, Models/Database.php
 <br />
 <br /> Models folder contains all the application's data objects and entities that are embodied in the data base.
 <br /> The model Database implements the Singleton pattern to avoid multiple sessions, and provides methods to produce CRUDs.
-<br /> Controller folder contains application's logic. Manipulating Models and Views.
-<br /> Views folder Contains the files than render the HTML.
-<br /> Html folder Contains all the generated results in HTML.
+<br /> Controller folder contains application's logic. Manipulating Models, Views and grabbing GET, POST requests.
+<br /> Views folder Contains the files than render the corresponding HTML.
+<br /> Html folder Contains all the generated results in .php files to add dynamic content.
 <br />
 <br /> Manually set up the database running the query /Install Database first/database.sql
