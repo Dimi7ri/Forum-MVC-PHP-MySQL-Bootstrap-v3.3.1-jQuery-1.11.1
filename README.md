@@ -5,10 +5,11 @@
 * Bootstrap CS and jQuery for Client-side validation.
 
 ##The objective of this project was to showcase the Model View Controller design pattern, as well as displaying how a full scalable and easy to maintain web app can be built without using a framework.
-<br /> Models folder contains all the application's data objects and entities that are embodied in the data base.
-<br /> The model Database implements the Singleton pattern to avoid multiple sessions, and provides methods to produce CRUDs.
-<br /> Controller folder contains application's logic. Manipulating Models, Views and grabbing GET, POST requests.
-<br /> Views folder contains .php files than render the corresponding HTML.o
-<br /> Html folder contains all the generated results in .php files to add dynamic content.
+##<br />Components
+* The model Database implements the Singleton pattern to avoid multiple sessions, and provides methods to produce CRUDs
+* Models folder contains all the application's data objects and entities that are embodied in the data base.
+* Controller folder contains application's logic. Manipulating Models, Views and grabbing GET, POST requests.
+* Views folder contains .php files than render the corresponding HTML.o
+* Html folder contains all the generated results in .php files to add dynamic content.
 <br />
 <br /> Manually set up the database running the query /Install Database first/database.sql
