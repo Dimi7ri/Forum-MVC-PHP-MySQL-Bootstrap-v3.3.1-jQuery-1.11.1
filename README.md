@@ -4,9 +4,7 @@
 * Server-side full validation and data integrity, including authorization and authentication.
 * Bootstrap CS and jQuery for Client-side validation.
 
-<br /> 
 ##The objective of this project was to showcase the Model View Controller design pattern, as well as displaying how a full scalable and easy to maintain web app can be built without using a framework.
-<br />
 <br /> Models folder contains all the application's data objects and entities that are embodied in the data base.
 <br /> The model Database implements the Singleton pattern to avoid multiple sessions, and provides methods to produce CRUDs.
 <br /> Controller folder contains application's logic. Manipulating Models, Views and grabbing GET, POST requests.
